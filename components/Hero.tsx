@@ -38,13 +38,22 @@ const Hero = () => {
                     <p className="text-center md:tracking-widest mb-4 text-sm  md:text-lg lg:text-2xl">
                         Hi, I&apos;m Solomon Chijioke, a Software Developer based in Nigeria.
                     </p>
-                    <Link href={'/docs/Solomon.pdf'} target='_blank'>
-                        <MagicButton
-                            title={"Download My CV"}
-                            icon={<FaLocationArrow />}
-                            position='right'
-                        />
-                    </Link>
+                    <div className="flex items-center justify-center gap-10">
+                        <Link href={'https://github.com/Kingsintersect'} target='_blank'>
+                            <MagicButton
+                                title={"Visit My Github"}
+                                icon={<FaLocationArrow />}
+                                position='right'
+                            />
+                        </Link>
+                        <Link href={'/docs/Solomon.pdf'} target='_blank'>
+                            <MagicButton
+                                title={"Download My CV"}
+                                icon={<FaLocationArrow />}
+                                position='right'
+                            />
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>

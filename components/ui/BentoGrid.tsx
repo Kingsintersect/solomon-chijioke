@@ -143,7 +143,7 @@ export const BentoGridItem = ({
                                         preserveAspectRatio: 'xMidYMid slice',
                                     }
                                 }} /> */}
-                                {/* <LottieAnimation state={copied} animationData={animationData} /> */}
+                                <LottieAnimation state={copied} animationData={animationData} />
                             </div>
                             <MagicButton
                                 title={copied ? "EMail copied" : "Copy my email"}
